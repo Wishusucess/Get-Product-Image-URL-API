@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Category: Wishusucess_ProductImageApi
+ * Developer: Hemant Singh Magento 2x Developer
+ * Website: http://wwww.wishusucess.com
+ */
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route url="/V1/getproductimage/:sku" method="GET">
+        <service class="Wishusucess\ProductImageApi\Api\GetProductImage" method="getProductImageUrl"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

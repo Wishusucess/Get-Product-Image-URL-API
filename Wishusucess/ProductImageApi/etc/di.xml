@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Category: Wishusucess_ProductImageApi
+ * Developer: Hemant Singh Magento 2x Developer
+ * Website: http://wwww.wishusucess.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Wishusucess\ProductImageApi\Api\GetProductImage" type="Wishusucess\ProductImageApi\Model\GetProductImageUrl" />
+</config>
